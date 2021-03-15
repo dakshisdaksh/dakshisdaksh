@@ -11,7 +11,7 @@ function myFunction() {
   }
 
 
- var descList = [ " a BITS Goa Student.", " a Javascript Developer.", " an Evolution Enthusiast.", " an Euntrepreneur." ];
+ var descList = [ " a BITS Goa Student.", " a Javascript Developer.", " an Evolution Enthusiast.", " an Entrepreneur." ];
 var curr = 0;
 var currIdx = 0;
 var interval;
