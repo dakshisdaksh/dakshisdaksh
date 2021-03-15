@@ -4,8 +4,8 @@
 }
 /* reset */
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
 body,
 p,
@@ -15,31 +15,84 @@ a {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  color: var(--secondary);
+  color:var(--secondary);
+  font-family: 'Raleway', sans-serif;
+
+}
+a{
+  color: red;
 }
 li {
   list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+
 }
 body {
   background-color: var(--primary);
   overflow-x: hidden;
-  font-family: "Dot";
+  font-family: 'Raleway', sans-serif;
+
 }
 
-input,
-textarea {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 10px 16px;
-  border-radius: 20px;
-  border: 2px solid #9893d8;
-  color: #f2f2f2;
-  font-size: 1em;
+
+
+[class*="col-"] {
+  padding: 1rem;
 }
 
-@font-face {
-  font-family: "Dot";
-  src: url("assets/DotGothic16-Regular.ttf") format("ttf");
+
+
+
+.social a{
+  font-size:2.5em;
+  padding:2rem;
 }
+.fa-facebook{
+  color:#3b5998;
+  color:#FFF;
+}
+.fa-github{
+  color:#000010;
+  color:#FFF;
+}
+.fa-twitter{
+  color:#00aced;
+  color:#FFF;
+}
+.fa-instagram{
+  color:#517fa4;
+  color:#FFF;
+}
+.fa-linkedin{
+    color:#517fa4;
+    color:#FFF;
+}
+.fa-google{
+  color:gray;
+  color:#FFF;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-cuttlefish, .fa-node, .fa-react{
+  margin:1rem;
+  font-size:4em;
+
+}
+.fa-python{
+  margin:1rem;
+  font-size:4em;
+}
+.fa-js{
+  margin:1rem;
+  font-size:4em;
+}
+.fa-facebook:hover , .fa-twitter:hover, .fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-google:hover{
+color:Firebrick;
+}
+
+
+
+
+
 h1,
 h2,
 h3,
@@ -47,25 +100,37 @@ h4 {
   color: #d9ff04;
   font-weight: normal;
   line-height: 1.4em;
+  font-family: 'Calligraffitti', cursive;
+
 }
 p,
 a,
 li {
   line-height: 1.4em;
   font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+
 }
 h1,
 h3 {
   font-size: 1.2em;
+  font-family: 'Calligraffitti', cursive;
+
 }
 h2 {
   font-size: 1.6em;
+  font-family: 'Calligraffitti', cursive;
+
 }
 h4 {
   font-size: 1.1em;
+  font-family: 'Calligraffitti', cursive;
+
 }
 .leading {
   font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -337,4 +402,10 @@ h4 {
   footer img {
     width: 30px;
   }
+}
+
+.myclass{
+  align-items:center;
+  align-items: center;
+  
 }
